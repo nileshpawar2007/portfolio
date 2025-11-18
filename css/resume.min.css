@@ -180,12 +180,12 @@ a:active, a:focus, a:hover {
 ::selection {
   background: #ffc107; /* WebKit/Blink Browsers */
   color:#fff;
-  text-shadow:1px 1px 1px #333;
+  text-shadow:1px 1px 1px #131313;
 }
 ::-moz-selection {
   background: #ffc107;
   color:#fff;
-  text-shadow:1px 1px 1px #333;
+  text-shadow:1px 1px 1px #131313;
 }
 
 .back-to-top {
