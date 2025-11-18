@@ -172,10 +172,10 @@ section.resume-section {
 	/*color: #2069b4!important*/
 }
 a {
-	color: #2069b4
+	color: #1885fb
 }
 a:active, a:focus, a:hover {
-	color: #2069b4
+	color: #1885fb
 }
 ::selection {
   background: #ffc107; /* WebKit/Blink Browsers */
