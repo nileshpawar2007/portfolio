@@ -41,7 +41,7 @@ h2 {
 	color: #495057
 }
 .list-social-icons a:hover {
-	color: #2069b4
+	color: #1885fb
 }
 .list-social-icons a .fa-lg {
 	font-size: 1.75rem
@@ -215,7 +215,12 @@ p{
 	text-align: justify;
 }
 .fa-ul li{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	transition: padding-left .3s ease;
+}
+.fa-ul li:hover{
+	padding-left: 7px;
+	transition: padding-left .3s ease;
 }
 
 
@@ -375,4 +380,35 @@ p{
 
 .list-inline-item:not(:last-child) {
     margin-right: 20px;
+}
+
+
+.link{
+  text-decoration: none;
+  position: relative;
+  transition: transform .1s ease-in-out;
+
+}
+
+.link::before, .link::after{
+  content: "";
+  position: absolute;
+  background-color: #1885fb;
+  transition: transform .2s;
+}
+
+.link1::after{
+  left: 0;
+  width: 100%;
+  height: 1px;
+  bottom: -5px;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.link1:hover::after{
+    transform: scaleX(1);
+}
+
+.proList a{
+	text-decoration: none;
 }
