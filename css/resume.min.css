@@ -393,7 +393,7 @@ p{
 .link::before, .link::after{
   content: "";
   position: absolute;
-  background-color: #1885fb;
+  background-color: #343a40;
   transition: transform .2s;
 }
 
