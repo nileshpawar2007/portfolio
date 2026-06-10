@@ -669,7 +669,7 @@ ul li {
 	.project-card {
 		min-width: 100%;
 	}
-
+	
 }
 
 .browser-mockup {
@@ -966,6 +966,14 @@ footer {
 	.menu-btn {
 		display: block;
 	}
+	
+	.socials{
+		justify-content: center;
+	}
+	
+	.btn-submit{
+		width: 100%;
+	}
 }
 
 @media(max-width:600px) {
@@ -1084,10 +1092,7 @@ footer {
 		width: 48px;
 		height: 48px;
 	}
-	
-		.btn-submit{
-		width: 100%;
-	}
+
 }
 
 .hero {
